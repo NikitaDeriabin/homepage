@@ -186,14 +186,18 @@ body {
     margin-bottom: 15px;
 }
 
-.skills__column {
-    margin: 0 40px;
+.skills__left-column {
+    width: 57%;
+}
+
+.skills__right-column {
+    width: 43%;
 }
 
 /* EXPERIENCE AND ADDITIONAL INFO */
 
 .experiences {
-    flex: 1 1 60%;
+    flex: 1 1 50%;
     margin-right: 50px;
 }
 
@@ -203,19 +207,24 @@ body {
     margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
+.location__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experiences__achievment-header-year {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__company-header-name {
+.experiences__achievment-header-name {
     color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
 }
 
 .experiences__company-project {
