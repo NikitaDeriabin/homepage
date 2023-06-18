@@ -65,7 +65,7 @@ body {
         margin-bottom: 20px;
     }
 
-    .experiences {
+    . {
         margin-right: 0;
     }
 }
@@ -166,12 +166,28 @@ body {
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.skills__header-knowledge{
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.skills__list {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.skills__column {
+    margin: 0 40px;
 }
 
 /* EXPERIENCE AND ADDITIONAL INFO */
