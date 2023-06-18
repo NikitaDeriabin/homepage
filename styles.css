@@ -30,6 +30,12 @@ ul {
     max-width: 900px;
 }
 
+.header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 .fh {
     display: flex;
     flex-direction: row;
@@ -219,22 +225,22 @@ ul {
     margin-bottom: 20px;
 }
 
-.experiences__achievment-header-year {
+.education__study-year, .experiences__achievement-header-year {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.experiences__achievment-header-name {
+.education__description, .experiences__achievement-header-name{
     color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
 }
 
-.experiences__company-project {
-    margin-left: 15px;
+.education__university {
+    flex: 1 1 50%;
     margin-bottom: 25px;
 }
 
@@ -260,11 +266,11 @@ ul {
     flex: 1 1 40%;
 }
 
-.additional-info__education {
+.additional-info__project {
     margin-bottom: 20px;
 }
 
-.additional-info__education-header {
+.additional-info__project-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
