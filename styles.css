@@ -18,6 +18,12 @@ body {
     --text-decoration-color: #ff9a00;
 }
 
+ul {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -264,21 +270,16 @@ body {
     margin-bottom: 20px;
 }
 
-.additional-info__education-university-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.additional-info__education-university-speciality {
+.additional-info__project-name {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
+    margin-top: 23px;
 }
 
-.additional-info__education-university-name {
+.additional-info__project-description {
     color: var(--secondary-text-color);
+    font-size: 14px;
 }
 
 .additional-info__languages {
