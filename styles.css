@@ -9,6 +9,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background: url('assets/background.gif') repeat center center;
 
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
@@ -22,6 +23,12 @@ ul {
     color: var(--secondary-text-color);
     padding-left: 20px;
     margin-bottom: 15px;
+}
+
+a:hover {
+    scale: 1.1;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
 }
 
 .container {
@@ -52,6 +59,7 @@ ul {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
+    background-color: white;
     padding: 30px 0;
     max-width: 900px;
 }
@@ -196,6 +204,29 @@ ul {
     color: var(--secondary-text-color);
     padding-left: 20px;
     margin-bottom: 15px;
+    list-style-type: none;
+}
+
+li.skill_item{
+    margin-bottom: 1.2rem;
+}
+
+.skills_wrapper {
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: 2px solid var(--text-decoration-color);
+    border-radius: 18px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    background-color: var(--text-decoration-color);
+}
+
+.skills_wrapper:hover {
+    color: black;
+    background-color: transparent;
 }
 
 .skills__left-column {
@@ -242,6 +273,7 @@ ul {
 .education__university {
     flex: 1 1 50%;
     margin-bottom: 25px;
+    margin-right: 3.2rem;
 }
 
 .experiences__company-project-role {
@@ -289,6 +321,7 @@ ul {
 }
 
 .additional-info__languages {
+    
     margin-bottom: 20px;
 }
 
