@@ -271,6 +271,7 @@ li.skill_item{
 .education__university {
     flex: 1 1 50%;
     margin-bottom: 25px;
+    margin-right: 3.2rem;
 }
 
 .experiences__company-project-role {
@@ -318,6 +319,7 @@ li.skill_item{
 }
 
 .additional-info__languages {
+    
     margin-bottom: 20px;
 }
 
