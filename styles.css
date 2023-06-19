@@ -9,6 +9,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background: url('assets/background.gif') repeat center center;
 
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
@@ -58,6 +59,7 @@ a:hover {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
+    background-color: white;
     padding: 30px 0;
     max-width: 900px;
 }
