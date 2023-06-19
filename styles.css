@@ -22,11 +22,12 @@ ul {
     color: var(--secondary-text-color);
     padding-left: 20px;
     margin-bottom: 15px;
-    list-style-type: none;
 }
 
-li {
-    margin-bottom: 1.2rem;
+a:hover {
+    scale: 1.1;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
 }
 
 .container {
@@ -201,6 +202,11 @@ li {
     color: var(--secondary-text-color);
     padding-left: 20px;
     margin-bottom: 15px;
+    list-style-type: none;
+}
+
+li.skill_item{
+    margin-bottom: 1.2rem;
 }
 
 .skills_wrapper {
@@ -211,6 +217,14 @@ li {
     border-radius: 18px;
     font-size: 14px;
     cursor: pointer;
+    color: white;
+    font-weight: normal;
+    background-color: var(--text-decoration-color);
+}
+
+.skills_wrapper:hover {
+    color: black;
+    background-color: transparent;
 }
 
 .skills__left-column {
