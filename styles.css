@@ -24,6 +24,12 @@ ul {
     margin-bottom: 15px;
 }
 
+a:hover {
+    scale: 1.1;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -196,6 +202,29 @@ ul {
     color: var(--secondary-text-color);
     padding-left: 20px;
     margin-bottom: 15px;
+    list-style-type: none;
+}
+
+li.skill_item{
+    margin-bottom: 1.2rem;
+}
+
+.skills_wrapper {
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: 2px solid var(--text-decoration-color);
+    border-radius: 18px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    background-color: var(--text-decoration-color);
+}
+
+.skills_wrapper:hover {
+    color: black;
+    background-color: transparent;
 }
 
 .skills__left-column {
